@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+body { padding-right: 0 !important }
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.bg-navbar {
+    background-image: linear-gradient(to right, #9F0D0D, #FF0000);
+}
+
+.btn-login {
+    background-color: #9F0D0D;
+    padding: 5px 15px;
+    color: #FFFFFF;
+}
+
+.button-hide {
+    display: none;
+}
+
+.nav-link {
+    margin-right: 25px;
+}
+
+.dropdown-menu {
+    max-width: 7.5rem;
+    min-width: 7.5rem;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+
+/* .modal-open {
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 0 !important;
+} */
+
+.maps {
+    height: 100%;
+    width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.jumbotron {
+    background-image: url(../images/jumbotron.png);
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-hero {
+    padding: 10px 80px;
+    background-color: #E31E1E;
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
+
+.text-hero h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 6.1rem;
+    line-height: 90%;
+    letter-spacing: 6px;
+}
+
+.text-hero h2 {
+    margin-top: 40px;
+    font-size: 2rem;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+.how-it-work {
+    background-color: #9F0D0D;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 9rem 80px 4rem 80px;
+}
+
+.divider {
+    padding-top: 88px;
+}
+
+div.how-it-work h4 {
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+div.how-it-work p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    padding: 0 5rem 40px 5rem;
+    margin-bottom: 50px;
+}
+
+div.how-it-work h5 {
+    padding: 18px 0px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+div.how-it-work h1 {
+    font-weight: 800;
+    font-size: 8rem;
+}
+
+.howitwork-pict {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: -80px;
+}
+
+.image-wrapper {
+    display: flex;
+    min-height: 0;
+}
+
+.image-wrapper img {
+    width: 315px;
+    height: 322px;
+}
+
+.footer {
+    background-color: #D50C0D;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.footer-brand img {
+    height: 150px;
+    width: 150px;
+}
+
+.footer i {
+    font-size: 28px;
+}
+
+.footer-contact h3,
+.footer-location h3 {
+    font-size: 20px;
+}
+
+.copyright {
+    background-color: #9F0D0D;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.copyright h3 {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.menu-content img {
+    width: 300px;
+    height: 300px;
+}
+
+.menu-header h3 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 50px 0;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+}
+
+.menu-content-container {
+    margin-top: 30px;
+}
+
+.menu-content h3 {
+    padding: 40px 0;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+ul.glide__slides li.glide__slide img {
+    width: 280px;
+    height: 280px;
+}
+
+.iklan {
+    background-image: url(../images/backgroundIklan.png);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-android {
+    background-image: url(../images/googleplay.png);
+    background-size: cover;
+    padding: 31px 104px;
+    border-radius: 10px;
+    outline: none !important;
+}
+
+.iklan-content {
+    color: #FFFFFF;
+}
+
+.burger-img img {
+    width: 100%;
+    height: 55%;
+}
+
+.form-control:focus {
+    border-color: #FF0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.maps {
+    max-height: 100%;
+    max-width: 100%;
+    background-image: url(../images/emy-XoByiBymX20-unsplash.jpg);
+}
+
+.foto-login {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-body.login {
+    padding: 0;
+}
+
+.text-biru {
+    cursor: pointer;
+}
+
+
+/* ini tablet */
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .jumbotron {
+        height: 65vh;
+    }
+    .text-hero h1 {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 4.5rem;
+        line-height: 90%;
+        letter-spacing: 6px;
+    }
+    .text-hero h2 {
+        margin-top: 40px;
+        font-size: 1.5rem;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+    }
+    .btn-hero {
+        padding: 10px 60px;
+        font-size: 1rem;
+        margin-top: 40px;
+    }
+    div.how-it-work h4 {
+        font-size: 30px;
+        letter-spacing: 0.1em;
+    }
+    div.how-it-work h5 {
+        font-size: 25px;
+    }
+    div.how-it-work p {
+        font-size: 24px;
+        padding: 0 1rem 40px 1rem;
+    }
+    .image-wrapper img {
+        width: 284px;
+        height: 290px;
+    }
+    .iklan-brand {
+        margin-left: 5rem;
+    }
+    .iklan-content h3 {
+        font-size: 1.5rem;
+    }
+    .burger-img img {
+        margin-right: -40px;
+        visibility: hidden;
+    }
+    .btn-android {
+        padding: 26px 88px;
+        background-size: cover;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+    .footer-brand img {
+        height: 100px;
+        width: 100px;
+        margin-left: -15px;
+    }
+    .footer-contact h3,
+    .footer-location h3 {
+        font-size: 18px;
+    }
+    .footer i {
+        font-size: 16px;
+    }
+    .footer-contact {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .foto-login{
+        display: none;
+    }
+    .jumbotron {
+        height: 65vh;
+    }
+    .text-hero h1 {
+        font-size: 2.5rem;
+        line-height: 90%;
+        letter-spacing: 4px;
+    }
+    .text-hero h2 {
+        margin-top: 20px;
+        font-size: 1.1rem;
+    }
+    .btn-android {
+        padding: 15px 50px;
+        background-size: cover;
+    }
+    .btn-hero {
+        padding: 10px 40px;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .how-it-work {
+        padding: 2rem 20px 2rem 20px;
+    }
+    div.how-it-work h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    div.how-it-work h5 {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 3px;
+    }
+    div.how-it-work p {
+        font-size: 13px;
+        padding: 0 0 20px 0;
+        margin-bottom: 0;
+        line-height: 18px;
+    }
+    .image-wrapper img {
+        width: 105px;
+        height: 105px;
+    }
+    .burger-img img {
+        visibility: hidden;
+    }
+    .howitwork-pict {
+        margin-left: -35px;
+    }
+    .menu-header h3 {
+        font-size: 40px;
+    }
+    .iklan {
+        margin: 40px 0;
+    }
+    .iklan-brand img {
+        width: 120px;
+        height: 250px;
+    }
+    .container-fluid.tes {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .iklan-content h3 {
+        font-size: 14px;
+    }
+    .btn-android {
+        padding: 18px 64px;
+    }
+    .divider {
+        padding-top: 40px;
+    }
+    .footer-brand img {
+        height: 0;
+        width: 0;
+        margin-left: -20px;
+    }
+    .footer-contact h3,
+    .footer-location h3 {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .footer i {
+        font-size: 17px;
+    }
+    .copyright h3 {
+        font-size: 10px;
+    }
+    .footer-location {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    .jumbotron {
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) and (orientation: landscape) {
+    .jumbotron {
+        height: 100vh;
+    }
+}

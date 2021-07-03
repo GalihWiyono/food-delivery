@@ -1,0 +1,486 @@
+body { padding-right: 0 !important }
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.bg-navbar {
+    background-image: linear-gradient(to right, #9F0D0D, #FF0000);
+    ;
+}
+
+.btn-login {
+    background-color: #9F0D0D;
+    padding: 5px 15px;
+    color: #FFFFFF;
+}
+
+.nav-link {
+    margin-right: 25px;
+}
+
+.maps {
+    height: 100%;
+    width: 100%;
+}
+
+.menu h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 15px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.cart-barang {
+    border: none;
+}
+
+.cart-barang:hover {
+    background-color: #FF0000;
+}
+
+.cart-barang i {
+    color: white;
+}
+
+.homenav {
+    margin-left: 40px;
+}
+
+.akun {
+    visibility: hidden;
+}
+
+.garis-bawah {
+    border-bottom: 2px solid #e5e5e5;
+    margin-top: 12px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-payment {
+    margin: 5px auto;
+    /* min-height: 200px; */
+    max-height: auto;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 6px 18px #888888;
+    padding: 5px;
+    margin-left: 0px;
+    padding-top: 30px;
+}
+
+.card-payment p {
+    margin-bottom: 0;
+}
+
+.bungkusan-card-payment {
+    padding: 18px;
+}
+
+.bungkusan-card-payment h6 {
+    margin-bottom: 15px;
+}
+
+.input-account {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn-login {
+    background-color: #9F0D0D;
+    padding: 5px 15px;
+    color: #FFFFFF;
+}
+
+.nav-link {
+    margin-right: 25px;
+}
+
+.container-body {
+    margin: 50px 80px 80px 80px;
+    min-height: 51vh;
+}
+
+.foto-cart {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.container-button {
+    width: 40%;
+}
+
+.tulisannya {
+    margin-left: 20px;
+    width: 100%;
+}
+
+.footer {
+    background-color: #D50C0D;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.footer-brand img {
+    height: 150px;
+    width: 150px;
+}
+
+.footer i {
+    font-size: 28px;
+}
+
+.footer-contact h3,
+.footer-location h3 {
+    font-size: 20px;
+}
+
+.copyright {
+    background-color: #9F0D0D;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.copyright h3 {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.history-makanan {
+    margin-top: 20px;
+}
+
+.status {
+    height: 20px;
+    width: 20px;
+}
+
+.kotakan {
+    box-shadow: 0 1px 16px 0px #888888;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+.tanggal-history {
+    width: 30%;
+}
+
+.tanggal-history p {
+    font-size: 15px;
+}
+
+.nama-menu p {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.garis {
+    border-left: 1px solid #888888;
+    max-height: 70px;
+}
+
+.harga {
+    justify-content: flex-start;
+    width: 180px;
+}
+
+.harga p {
+    margin: 5px auto;
+    font-size: 14px;
+}
+
+.buton-detail {
+    margin-top: 30px;
+}
+
+.modal-body {
+    overflow-y: auto;
+}
+
+.hargamodal {
+    width: 50%;
+    margin-top: auto;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.foto-login {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-body.login {
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.text-biru {
+    cursor: pointer;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container-body {
+        margin: 40px 60px 60px 60px;
+    }
+    .foto-cart {
+        height: 70px;
+        width: 70px;
+    }
+    .nama-menu h6 {
+        font-size: 16px;
+    }
+    .nama-menu p {
+        font-size: 14px;
+    }
+    .card-payment {
+        width: 300px;
+        margin-left: 0;
+    }
+    .container-button {
+        width: 50%;
+    }
+    .tanggal-history {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .nav-responsive {
+        display: flex;
+        flex-direction: column;
+    }
+    .homenav {
+        margin-left: 0px;
+    }
+    .container-body {
+        margin: 30px 50px 50px 50px;
+    }
+    .foto-cart {
+        height: 50px;
+        width: 50px;
+    }
+    .nama-menu h6 {
+        font-size: 14px;
+    }
+    .nama-menu p {
+        font-size: 13px;
+    }
+    .harga {
+        width: 140px;
+    }
+    .container-button {
+        width: 70%;
+    }
+    .container-button p {
+        font-size: 12px;
+    }
+    .card-payment {
+        margin-left: 0;
+    }
+    .card-payment h4 {
+        font-size: 22px;
+    }
+    .input-account {
+        padding: 4px;
+    }
+    .tanggal-history {
+        width: 68%;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+    .footer-brand img {
+        height: 100px;
+        width: 100px;
+        margin-left: 15px;
+    }
+    .footer-contact h3,
+    .footer-location h3 {
+        font-size: 18px;
+    }
+    .footer i {
+        font-size: 16px;
+    }
+    .footer-contact {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .hargamodal{
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .foto-login{
+        display: none;
+    }
+    .akun {
+        visibility: visible;
+    }
+    .nav-responsive {
+        display: flex;
+        flex-direction: column;
+    }
+    .homenav {
+        margin-left: 0px;
+    }
+    .container-body {
+        margin: 20px;
+    }
+    .foto-cart {
+        height: 50px;
+        width: 50px;
+    }
+    .card-payment {
+        display: none;
+        margin-top: 30px;
+        margin-left: auto;
+    }
+    .input-account {
+        padding: 5px;
+    }
+    .nama-menu p {
+        font-size: 12px;
+    }
+    .harga {
+        width: 100px;
+    }
+    .harga p {
+        font-size: 12px;
+    }
+    .footer-brand img {
+        height: 0;
+        width: 0;
+        margin-left: -20px;
+    }
+    .footer-contact h3,
+    .footer-location h3 {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .footer i {
+        font-size: 17px;
+    }
+    .copyright h3 {
+        font-size: 10px;
+    }
+    .footer-location {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .tanggal-history {
+        width: 60%;
+    }
+    .tanggal-history p {
+        font-size: 12px;
+    }
+    .hargamodal{
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (width: 540px) {
+    .tulisannya h5 {
+        font-size: 16px;
+    }
+    .foto-cart {
+        height: 55px;
+        width: 55px;
+    }
+    .card-payment {
+        margin-top: 50px;
+        width: 400px;
+        margin-left: auto;
+    }
+    .harga {
+        width: 180px;
+    }
+    .harga p {
+        font-size: 14px;
+    }
+    .tanggal-history {
+        width: 45%;
+    }
+    .nama-menu h6 {
+        font-size: 16px;
+    }
+    .nama-menu p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .foto-cart {
+        height: 50px;
+        width: 50px;
+    }
+    .container-button {
+        width: 80%;
+    }
+    .container-button p {
+        font-size: 12px;
+    }
+    .tanggal-history {
+        width: 70%;
+    }
+    .nama-menu h6 {
+        font-size: 12px;
+    }
+    .nama-menu p {
+        font-size: 12px;
+    }
+    .harga {
+        width: 80px;
+    }
+    .harga p {
+        font-size: 12px;
+    }
+    .fa-user {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (width: 320px) {
+    .foto-cart {
+        height: 40px;
+        width: 40px;
+    }
+    .nama-menu h6 {
+        font-size: 11px;
+    }
+    .nama-menu p {
+        font-size: 11px;
+    }
+    .container-button {
+        width: 55%;
+    }
+    .container-button p {
+        font-size: 8px;
+    }
+    .card-payment {
+        width: 250px;
+    }
+    .tanggal-history {
+        width: 80%;
+    }
+    .tanggal-history p {
+        font-size: 11px;
+    }
+}

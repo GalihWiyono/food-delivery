@@ -1,0 +1,254 @@
+.navbar {
+    margin-bottom: 0px;
+}
+
+.bg-navbar {
+    background-image: linear-gradient(to right, #9F0D0D, #FF0000);
+    ;
+}
+
+.btn-login {
+    background-color: #9F0D0D;
+    padding: 5px 15px;
+    color: #FFFFFF;
+}
+
+.nav-link {
+    margin-right: 25px;
+}
+
+.menu h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 15px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.cart-barang {
+    border: none;
+}
+
+.cart-barang:hover {
+    background-color: #FF0000;
+}
+
+.cart-barang i {
+    color: white;
+}
+
+.homenav {
+    margin-left: 40px;
+}
+
+.footer {
+    background-color: #D50C0D;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.footer-brand img {
+    height: 150px;
+    width: 150px;
+}
+
+.footer i {
+    font-size: 28px;
+}
+
+.footer-contact h3, .footer-location h3 {
+    font-size: 20px;
+}
+
+.copyright {
+    background-color: #9F0D0D;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.copyright h3 {
+    margin: 10px 0;
+    font-size: 15px;
+}
+.kotakan p {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+    .akun{
+        visibility: visible;
+    }
+    .nav-responsive {
+        display: flex;
+        flex-direction: column;
+    }
+    .homenav {
+        margin-left: 0px;
+    }
+    .container-body {
+        margin: 20px;
+    }
+    .foto-cart {
+        height: 50px;
+        width: 50px;
+    }
+    .card-payment {
+        visibility: hidden;
+        margin-top: 30px;
+        margin-left: auto;
+    }
+    .input-account {
+        padding: 5px;
+    }
+    .nama-menu a {
+        font-size: 12px;
+        margin-bottom: 0px;
+        color: black;
+        text-decoration: none;
+    }
+    .harga {
+        width: 100px;
+    }
+    .harga p {
+        font-size: 12px;
+    }
+    .footer-brand img {
+        height: 0;
+        width: 0;
+        margin-left: -20px;
+    }
+    .footer-contact h3, .footer-location h3 {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .footer i {
+        font-size: 17px;
+    }
+    .copyright h3 {
+        font-size: 10px;
+    }
+    .footer-location {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .tanggal-history{
+        width: 50%;
+    }
+    .tanggal-history p {
+        font-size: 12px;
+    }
+    
+    .batal {
+        height: 25px;
+        width: 25px;
+    }
+    .confirm {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media only screen and (width: 540px) {
+    .tulisannya h5 {
+        font-size: 16px;
+    }
+    .foto-cart {
+        height: 55px;
+        width: 55px;
+    }
+    .card-payment {
+        margin-top: 50px;
+        width: 400px;
+        margin-left: auto;
+    }
+    .harga {
+        width: 180px;
+    }
+    .harga p {
+        font-size: 14px;
+    }
+    .tanggal-history{
+        width: 38%;
+    }
+    .nama-menu h6 {
+        font-size: 16px;
+    }
+    .nama-menu a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .foto-cart {
+        height: 50px;
+        width: 50px;
+    }  
+    .container-button {
+        width: 80%;
+    }
+    .container-button p {
+        font-size: 12px;
+    }
+    .tanggal-history{
+        width: 60%;
+    }
+    .nama-menu h6 {
+        font-size: 12px;
+    }
+    .nama-menu a {
+        font-size: 11px;
+    }
+    .harga {
+        width: 80px;
+    }
+    .harga p {
+        font-size: 12px;
+    }
+    .fa-user {
+        font-size: 30px;
+    }
+    .batal {
+        height: 25px;
+        width: 25px;
+    }
+    .confirm {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media only screen and (width: 320px) {
+    .foto-cart {
+        height: 40px;
+        width: 40px;
+    } 
+    .nama-menu h6 {
+        font-size: 11px;
+    }
+    .nama-menu a {
+        font-size: 9px;
+    }
+    .container-button {
+        width: 55%;
+    }
+    .container-button p {
+        font-size: 8px;
+    }
+    .card-payment {
+        width: 250px;
+    }
+    .tanggal-history{
+        width: 65%;
+    }
+    .tanggal-history p {
+        font-size: 11px;
+    }
+    .batal {
+        height: 25px;
+        width: 25px;
+    }
+    .confirm {
+        height: 25px;
+        width: 25px;
+    }
+}

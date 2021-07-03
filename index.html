@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" integrity="sha512-5TnbR1omxM2zVDwgbd/6wu8yxvAv1/G6ULvM7O/J8eIX2qOodFnRN0KhttgdRdXPcR8HKmCbGHKfdTl7Vudoaw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/glide.core.min.css" />
+    <link rel="stylesheet" href="css/glide.theme.min.css" />
+    <link rel="stylesheet" type="text/CSS" href="css/index.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logonotext.png">
+    <title>Food Delivery</title>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar sticky-top" id="navbar">
+        <a class="navbar-brand" href="#">MAKANLIH</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-auto my-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact</a>
+                </li>
+            </ul>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-outline-danger my-2 my-sm-0 btn-login button-hide" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="btnAccount">
+                    <i class="fas fa-sign-in-alt mr-3"></i>Account
+                </button>
+                <div class="dropdown-menu dropdown-menu-left">
+                    <button class="dropdown-item" type="button" onclick="logout()">Logout</button>
+                </div>
+            </div>
+            <a class="btn btn-outline-danger my-2 my-sm-0 btn-login text-white" type="button" id="btnLogin" onclick="tologin()"><i class="fas fa-sign-in-alt mr-3"></i>Sign-In</a>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Hero -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 text-hero">
+                    <h1>FOOD</h1>
+                    <h1>DELIVERY</h1>
+                    <h2>Enjoy Your Favorite Meals!</h2>
+                    <button type="button" class="btn btn-danger btn-hero" onclick="document.getElementById('howItWorks').scrollIntoView();">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero -->
+
+    <div class="divider">
+
+    </div>
+
+    <div class="divider" id="howItWorks">
+
+    </div>
+
+    <!-- How it Works -->
+    <div class="container-fluid bg-how">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-9 how-it-work">
+                    <h4>How To Order</h4>
+                    <h5>CHOOSE</h5>
+                    <p>Select your food, which you want the most but don't forget about your drink</p>
+                    <h5>MAKE AN ORDER</h5>
+                    <p>Contact us and let us send your order to your address make sure the information correct</p>
+                    <h5>PAY YOUR FOOD</h5>
+                    <p>Don't forget to pay! We are open with cash and cashless, or bank transfer.</p>
+                    <h5>RECEIVE</h5>
+                    <p>Get your orders quickly and don't forget to enjoy your meals, happy eating!</p>
+                </div>
+
+                <diV class="col-lg-3 col-md-3 col-3 howitwork-pict">
+                    <div class="image-wrapper">
+                        <img src="images/HowItWorkPict1.png">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="images/HowItWorkPict2.png">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="images/HowItWorkPict3.png">
+                    </div>
+                </diV>
+            </div>
+        </div>
+    </div>
+    <!-- How it Works -->
+
+    <div class="divider">
+
+    </div>
+
+
+    <!-- Menu -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="menu-header text-center col-12">
+                <h3>OUR CATEGORY</h3>
+            </div>
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide menu-content text-center">
+                            <img src="images/ayam.png">
+                            <h3>CHICKEN</h3>
+                        </li>
+                        <li class="glide__slide menu-content text-center">
+                            <img src="images/burger2.png">
+                            <h3>BURGER</h3>
+                        </li>
+                        <li class="glide__slide menu-content text-center">
+                            <img src="images/spageti.png">
+                            <h3>PASTA</h3>
+                        </li>
+                        <li class="glide__slide menu-content text-center">
+                            <img src="images/nugget.png">
+                            <h3>SIDE DISH</h3>
+                        </li>
+                        <li class="glide__slide menu-content text-center">
+                            <img src="images/esteh.png">
+                            <h3>DRINK</h3>
+                        </li>
+                        <li class="glide__slide menu-content text-center">
+                            <img src="images/kopi.png">
+                            <h3>COFFEE</h3>
+                        </li>
+                        <li class="glide__slide menu-content text-center">
+                            <img src="images/eskrim.png">
+                            <h3>DESERT</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu -->
+
+
+    <!-- Iklan -->
+
+    <div class="container-fluid tes">
+        <div class="row iklan d-flex align-items-center">
+            <div class="offset-lg-1">
+
+            </div>
+
+            <div class="col-lg-7 col-md-9 col-10 d-flex align-items-center iklan-brand">
+                <img src="images/smartphone-unborder.png">
+                <div class="ml-4 iklan-content">
+                    <h3>MakanLih now are here on android</h3>
+                    <h3>download our apps now</h3>
+                    <button type="button" class="btn-android mt-3"></button>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-1 col-1 burger-img">
+                <img src="images/burger.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- Iklan -->
+
+
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-2 col-md-2 footer-brand">
+                <img src="images/logo_putih.png">
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 footer-contact">
+                <h3 class="mt-2 judul">Contact Us</h3>
+                <div class="d-flex">
+                    <i class="far fa-envelope mr-3 mt-1"></i>
+                    <h3 class="mt-1">Customer@makanlih.com</h3>
+                </div>
+                <div class="d-flex mt-1">
+                    <i class="fas fa-phone-alt mr-3 mt-1"></i>
+                    <h3 class="mt-1">+6285125025121</h3>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-6 col-12 footer-location">
+                <h3 class="judul">Our Location</h3>
+                <div class="location d-flex">
+                    <i class="fas fa-map-marker-alt mr-3 mt-1"></i>
+                    <h3 class="mt-1">Jalan Akses UI no 52, Kelapa Dua, Jakarta, Indonesia</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center col-lg-12 copyright">
+                <h3>© 2020-2021 MakanLih .inc All Right Reserved</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+<!-- modal sukses register -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body d-flex justify-content-center align-items-center">
+                <h5 class="my-4">Register Account Success, Redirect To Menu</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal sukses register -->
+
+    <!-- loginmodal -->
+    <div class="modal fade" id="modallogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header" hidden="true">
+                </div>
+                <div class="modal-body login">
+                    <div class="row">
+                        <div class="col-5 col-md-5">
+                            <img class="foto-login" src="images/foto-login.jpg" />
+                        </div>
+                        <div class="col-12 col-md-7 p-5 ">
+                            <h5 class="text-center">LOGIN</h5>
+                            <form>
+                                <div class="col-lg-12 mt-3">
+                                    <label class="text-black">Email</label>
+                                    <input type="email" id="emailLogin" class="form-control trial-input" placeholder="Enter your email" required>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <label class="text-black">Password</label>
+                                    <input type="password" id="passwordLogin" class="form-control trial-input" placeholder="Enter your password" required>
+                                    <div id="loginError" class="invalid-feedback">Email or password invalid, sorry :(
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <button class="btn btn-danger w-100 mt-3" onclick="login()" type="button">Sign
+                                        In</button>
+                                </div>
+                            </form>
+                            <div class="text-center mt-4">
+                                <p><small class="text-black mr-2">Don't have an account ?</small> <a onclick="toregist()" class="text-biru font-weight-bold">Create an
+                                        account</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- loginmodal -->
+
+    <!-- registermodal -->
+    <div class="modal fade" id="modalregister" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body login">
+                    <div class="row">
+                        <div class="col-5 col-md-5">
+                            <img class="foto-login" src="images/foto-login.jpg" />
+                        </div>
+                        <div class="col-12 col-md-7 p-5 ">
+                            <h5 class="text-center">Register</h5>
+                            <form>
+                                <div class="col-lg-12 mt-3">
+                                    <label class="text-black">Email</label>
+                                    <input type="email" id="emailRegister" class="form-control trial-input formRegis" placeholder="Email Id">
+                                    <div id="emailError" class="invalid-feedback">Don't let this field empty :(</div>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <label class="text-black">Password</label>
+                                    <input type="password" id="passwordRegister" class="form-control trial-input formRegis" placeholder="Password">
+                                    <div id="passwordError" class="invalid-feedback">Don't let this field empty :(</div>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <label class="text-black">Fullname</label>
+                                    <input type="text" id="fullnameRegister" class="form-control trial-input formRegis" placeholder="Fullname" onkeypress="return alphabet(event)">
+                                    <div id="fullnameError" class="invalid-feedback">Don't let this field empty :(</div>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <label class="text-black">Phone Number</label>
+                                    <input type="number" id="phoneRegister" class="form-control trial-input formRegis" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" placeholder="Phone Number" maxlength="15">
+                                    <div id="phoneError" class="invalid-feedback">Don't let this field empty :(</div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <button class="btn btn-danger w-100 mt-3" onclick="register()" type="button">Sign
+                                        Up</button>
+                                </div>
+                            </form>
+                            <div class="text-center mt-4">
+                                <p><small class="text-black mr-2"> have an account ?</small> <a onclick="tologin()" class="text-biru font-weight-bold">Sign In
+                                    </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- registermodal -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+        const glideConfig = {
+            type: 'carousel',
+            startAt: 0,
+            perView: 5,
+            breakpoints: {
+                1024: {
+                    perView: 2,
+                },
+                600: {
+                    perView: 1
+                }
+            }
+        }
+        new Glide('.glide', glideConfig).mount()
+    </script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/LoginRegister.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCauRZ_9JTu_8GEubrlaY20PDuhfEPrhH8&callback=initMap&libraries=&v=weekly" async>
+    </script>
+</body>
+
+</html>
